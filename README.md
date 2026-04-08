@@ -1,6 +1,8 @@
 # Seacr App
 
 Bu proje, React.js kullanarak geliştirilmiş bir serach uygulamasıdır. Kullanıcılar, istediği bir konuda, Google, Google books, Yandex, Google scholar (akademik makale) platformlarda seçtikleri dosya tipinde (Pdf, Word, Excel, PowerPoint) arama yapabilir.
+
+Project Vercel Url = https://react-js-search-sync-git-master-sonaykaras-projects.vercel.app/
 <br><br>
 
 ## İçindekiler  
