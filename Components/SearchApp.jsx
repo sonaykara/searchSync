@@ -32,8 +32,8 @@ const SearchApp = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-10 rounded-lg shadow-lg w-full max-w-lg">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 ">
+      <div className="bg-white p-10 rounded-lg shadow-lg w-[500px] max-w-lg">
         <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Search Documents</h1>
         <form onSubmit={handleSearch} className="space-y-6">
           <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
