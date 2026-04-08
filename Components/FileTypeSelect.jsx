@@ -4,7 +4,7 @@ const FileTypeSelect = ({ fileType, setFileType }) => {
         <select
           value={fileType}
           onChange={(e) => setFileType(e.target.value)}
-          className="w-full border border-gray-300 p-4 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out bg-gray-50"
+          className="w-full h-[20px] border border-gray-300 p-4 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 ease-in-out bg-gray-50"
         >
           <option value="">All Types</option>
           <option value="pdf">PDF</option>
